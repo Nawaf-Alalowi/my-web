@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css?family=Almarai&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Tajawal&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+.container-fluid{
+  width: 100%;
+  padding: 0;
+}
+body{
+  margin: 0 auto;
+  padding: 0;
+  max-width: 100%;
+}
+.page1 {
+  background: url(background-2.jpg);
+  width: 100%;
+  height: 700px;
+  background-size: 97%;
+}
+
+.nav {
+}
+.nav-item {
+  font-size: 20px;
+  font-family: 'Almarai', sans-serif;
+    float: left !important;
+    margin-top: 25px;
+    margin-left: 31px;
+    color: black;
+    position: relative;
+    right: 0;
+    left: 230px;
+}
+
+.icon {
+  width: 226px;
+  margin-left: 554px;
+}
+.rotate-scale-up{
+  -webkit-animation: rotate-scale-up 0.65s linear both;
+      animation: rotate-scale-up 0.65s linear both;
+}
+@-webkit-keyframes rotate-scale-up {
+  0% {
+    -webkit-transform: scale(1) rotateZ(0);
+            transform: scale(1) rotateZ(0);
+  }
+  50% {
+    -webkit-transform: scale(2) rotateZ(140deg);
+            transform: scale(2) rotateZ(140deg);
+  }
+  100% {
+    -webkit-transform: scale(1) rotateZ(360deg);
+            transform: scale(1) rotateZ(360deg);
+  }
+}
+.typewriter {
+  font-family: 'Oswald', sans-serif;
+  display: inline-block;
+  text-align: center;
+  margin-left: 567px;
+  margin-top: 85px;
+}
+
+.typewriter-text {
+  text-align: center;
+  display: inline-block;
+  overflow: hidden;
+  letter-spacing: 2px;
+  animation: typing 2s steps(30, end), blink .75s step-end infinite;
+  white-space: nowrap;
+  font-size: 30px;
+  font-weight: 700;
+  border-right: 4px solid orange;
+  box-sizing: border-box;
+}
+
+@keyframes typing {
+  from { 
+      width: 0% 
+  }
+  to { 
+      width: 100% 
+  }
+}
+
+@keyframes blink {
+  from, to { 
+      border-color: transparent 
+  }
+  50% { 
+      border-color: orange; 
+  }
+}
+
+.intro {
+  text-align: center;
+  font-family: 'Almarai', sans-serif;
+  margin-top: 140px;
+}
+
+.icon-next2{
+  color: #adb5bd;
+  margin-top: 140px;
+  margin-left: 35px;
+  text-align: center;
+  font-size: 62px;
+}
+
+.icon-next2:hover{
+  color: #212529;
+
+}
+
+
+.slide-top {
+  	-webkit-animation: slide-top 0.65s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+  	        animation: slide-top 0.65s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+  }
+
+@-webkit-keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(-100px);
+            transform: translateY(-100px);
+  }
+}
+@keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(-100px);
+            transform: translateY(-100px);
+  }
+}
+.page2{
+}
+.cards{
+  margin-top: 220px;
+  margin-left: 60px;
+  margin-bottom: 100px;
+}
+
+.card {
+    background: #dcdcdc8a;
+    border: 1px solid rgba(0,0,0,.125);
+    width: 280px;
+    height: 370px;
+    border: 1px solid #ccc;
+    padding: 4px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19),0 6px 6px rgba(0,0,0,0.23);
+    border-radius: .28rem;
+}
+.card-title{
+  font-family: 'Almarai', sans-serif;
+  font-size: 15px;
+  text-align: center;
+  margin-top: 10px;
+  border-bottom: 1px solid rgba(0,0,0,.125);
+   height:60px;
+}
+.card-icon {
+  text-align: center;
+  margin-top: 26px;
+}
+
+.card-icon img {
+
+  width: 80px;
+}
+
+.card-text{
+  direction: rtl;
+margin-top: 35px;
+text-align: center;
+}
+.card-text p{
+  direction: rtl;
+  font-family: 'Tajawal', sans-serif;
+  font-size: 18px;
+}
+.exp{
+    background-color: #dcdcdc8a;
+      height: 90px;
+  width: 940px;
+  margin: 20px;
+  margin-top: 80px;
+  margin-left: 165px;
+border-radius: 0px 27px 0px 27px;
+box-shadow: 0 6px 13px rgba(0,0,0,0.19),0 4px 4px rgba(0,0,0,0.23);
+
+}
+.div-exp{
+  display: inline;
+
+}
+.exp-icon{
+  margin-top: 3px;
+  margin-left: 80px;
+  font-size: 81px;
+  color: #adb5bd;
+}
+.div-exp .js{
+  color: #f0da49;
+}
+.div-exp .html{
+  color: #e86235;
+}
+.div-exp .css{
+  color: #3fa4d9;
+}
+.div-exp .bootstrap{
+  color: #5c3d87;
+}
+.div-exp .react{
+  color: #72d0ea;
+}
+footer{
+  font-family: 'Tajawal', sans-serif;
+  background-color: black;
+  width: 100%;
+  margin-top: 65%;
+
+  height: 50px;
+  color: white;
+  text-align: center;
+}
+footer p{
+    position: relative;
+    top: 17px;
+    font-size: 15px;
+}
+.nav .active{
+  border-bottom: 1.5px solid black;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 992px) {
+
+}
+
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  *{
+    max-width: 600px;
+  }
+  html{
+    padding: 0;
+    margin: 0 auto;
+    max-width: 600px;
+    width: 100%;
+  }
+  body{
+    width: 600px;
+    margin: 0 auto;
+  }
+  .page1{
+    height: 700px;
+    background-image: url("https://iphone-wallpaper.pics/wallpaper/j/p/jp3kao_ccb5a099d35669966f156810c50b5834_raw.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+    background-position-x: 7px;
+  }
+  .icon {
+    /* right: -221px; */
+    position: relative;
+    right: 459px;
+    top: 75px;
+  }
+  .nav-item {
+    /* right: 900px; */
+    left: 40px;
+    bottom: 120px;
+    color: white;
+    font-size: 26px;
+}
+.typewriter {
+  color: white;
+  margin-top: -5px;
+    /* left: 350px; */
+  position: relative;
+  right: 480px;
+  display: none;
+}
+.typewriter-text {
+    font-size: 30px;
+}
+.intro.container.slide-top {
+  color: white;
+}
+  .cards{
+    margin-left: -15px !important;
+    }
+  .card{
+    margin:  auto;
+    text-align: center;
+    margin-top: 80px;
+    max-width: 1200px;
+  }
+  .exp{
+    display: none;
+  }
+  .icon-next i {
+    font-size: 86px;
+    margin-top: 130px;
+    margin-right: 25px;
+}
+  footer{
+    position: relative;
+    top: 1350px;
+    }
+}
