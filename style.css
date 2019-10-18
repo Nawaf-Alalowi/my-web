@@ -34,7 +34,13 @@ body{
     right: 0;
     left: 230px;
 }
+.nav a {
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'Almarai', sans-serif;
+    color: black;
 
+}
 .icon {
   width: 226px;
   margin-left: 554px;
@@ -243,8 +249,172 @@ footer p{
   font-weight: bold;
 }
 
-@media screen and (max-width: 992px) {
+/*
 
+Page Tow!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+*/
+
+.carousel1{
+  font-family: 'Tajawal', sans-serif;
+  font-size: 18px;
+}
+.carousel-caption h5{
+  font-weight: bold;
+}
+i.fas.fa-chevron-right, i.fas.fa-chevron-left {
+  font-size: 35px;
+  color: black;
+}
+i.fas.fa-chevron-right, i.fas.fa-chevron-left {
+  font-size: 35px;
+  color: black;
+}
+.carousel-indicators li {
+  background-color: black;
+}
+.carousel-caption{
+  color: black;
+}
+.gallary{
+  background: url("https://www.toptal.com/designers/subtlepatterns/patterns/triangle-mosaic.png");
+  width: 100%;
+}
+@media screen and (max-width: 1255px) {
+  .page1{
+    background-repeat: no-repeat;
+    background-position-x: 7px;
+    background-size: 100%;
+    height: 700px;
+  }
+  .icon {
+    /* right: -221px; */
+    position: relative;
+    right: 600px;
+    top: -10px;
+    
+  }
+  .nav-item {
+      /* right: 900px; */
+      left: 283px;
+      bottom: 120px;
+      color: black;
+      font-size: 33px;
+  }
+  
+.typewriter {
+  color: white;
+  margin-top: -5px;
+    /* left: 350px; */
+  position: relative;
+  right: 480px;
+  display: none;
+}
+.typewriter-text {
+    font-size: 30px;
+}
+.intro{
+  position: relative;
+  bottom: 61px;
+}
+.icon-next2 {
+  margin-top: 183px;
+}
+.cards{
+  margin-left: -15px !important;
+  }
+.card{
+  margin:  auto;
+  text-align: center;
+  margin-top: 80px;
+  max-width: 1200px;
+}
+.exp {
+  height: 100px;
+  width: 880px;
+  margin-left: 39px;
+  margin-top: 15px;
+}
+.exp-icon {
+  font-size: 80px;
+  text-align: center;
+  margin-left: 55px;
+  margin-top: 15px;
+}
+footer{
+  position: relative;
+  top: 300px;
+  }
+}
+
+
+
+@media screen and (max-width: 992px) {
+  .page1{
+    background-repeat: no-repeat;
+    background-position-x: 7px;
+    background-size: 100%;
+    height: 700px;
+  }
+  .icon {
+    /* right: -221px; */
+    position: relative;
+    right: 600px;
+    top: -10px;
+    
+  }
+  .nav-item {
+    /* right: 900px; */
+    left: 159px;
+        bottom: 120px;
+    color: black;
+    font-size: 26px;
+}
+.typewriter {
+  color: white;
+  margin-top: -5px;
+    /* left: 350px; */
+  position: relative;
+  right: 480px;
+  display: none;
+}
+.typewriter-text {
+    font-size: 30px;
+}
+.intro{
+  position: relative;
+  bottom: 61px;
+}
+.icon-next2 {
+  margin-top: 75px;
+
+}
+.cards{
+  margin-left: -15px !important;
+  }
+.card{
+  margin:  auto;
+  text-align: center;
+  margin-top: 80px;
+  max-width: 1200px;
+}
+.exp {
+  height: 90px;
+  width: 580px;
+  margin-left: 69px;
+  margin-top: 15px;
+}
+.exp-icon {
+  font-size: 50px;
+  text-align: center;
+  margin-left: 32px;
+  margin-top: 15px;
+}
+footer{
+  position: relative;
+  top: 1340px;
+  }
 }
 
 /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
@@ -279,8 +449,8 @@ footer p{
   }
   .nav-item {
     /* right: 900px; */
-    left: 40px;
-    bottom: 120px;
+    left: -5px;
+        bottom: 120px;
     color: white;
     font-size: 26px;
 }
@@ -297,6 +467,7 @@ footer p{
 }
 .intro.container.slide-top {
   color: white;
+
 }
   .cards{
     margin-left: -15px !important;
@@ -315,8 +486,112 @@ footer p{
     margin-top: 130px;
     margin-right: 25px;
 }
-  footer{
-    position: relative;
-    top: 1350px;
+
+     /* 
+    Page Tow!!!!!
+    */
+    .gallary1{
+      height: 100%;
     }
+    .carousel-item {
+      width: 319px;
+        } 
+    .carousel-item img {
+      width: 450px;
+    }
+    footer{
+      position: relative;
+      top: 1340px;
+      }
+  }
+
+
+
+
+@media screen and (max-width: 450px) {
+  *{
+    max-width: 600px;
+  }
+  html{
+    padding: 0;
+    margin: 0 auto;
+    max-width: 600px;
+    width: 100%;
+  }
+  body{
+    width: 600px;
+    margin: 0 auto;
+  }
+  .page1{
+    height: 700px;
+    background-image: url("https://iphone-wallpaper.pics/wallpaper/j/p/jp3kao_ccb5a099d35669966f156810c50b5834_raw.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+    background-position-x: 7px;
+  }
+  .icon {
+    /* right: -221px; */
+    position: relative;
+    right: 459px;
+    top: 75px;
+  }
+  .nav-item {
+    /* right: 900px; */
+    left: -5px;
+        bottom: 120px;
+    color: white;
+    font-size: 26px;
 }
+.typewriter {
+  color: white;
+  margin-top: -5px;
+    /* left: 350px; */
+  position: relative;
+  right: 480px;
+  display: none;
+}
+.typewriter-text {
+    font-size: 30px;
+}
+.intro.container.slide-top {
+  color: white;
+
+}
+  .cards{
+    margin-left: -15px !important;
+    }
+  .card{
+    margin:  auto;
+    text-align: center;
+    margin-top: 80px;
+    max-width: 1200px;
+  }
+  .exp{
+    display: none;
+  }
+  .icon-next i {
+    font-size: 86px;
+    margin-top: 130px;
+    margin-right: 25px;
+}
+
+
+       /* 
+    Page Tow!!!!!
+    */
+    .gallary1{
+      height: 100%;
+    }
+    .carousel-item {
+      width: 319px;
+        } 
+    .carousel-item img {
+      width: 450px;
+    }
+    footer{
+      position: relative;
+      top: 1340px;
+      }
+  }
